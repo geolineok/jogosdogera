@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo do Gera</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Jogo do Gera</h1>
+    </header>
+    <nav>
+        <label for="sort">Ordenar por:</label>
+        <select id="sort" onchange="sortGames()">
+            <option value="name">Nome</option>
+            <option value="players">Jogadores</option>
+            <option value="category">Categoria</option>
+        </select>
+    </nav>
+    <main id="games-list">
+        <!-- Jogos serão carregados via JavaScript -->
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
